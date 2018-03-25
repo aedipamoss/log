@@ -1,12 +1,15 @@
 version: 2
 jobs:
   build:
-    - image: circleci/golang:1.10
-  steps:
-    - checkout
-    - run: go get github.com/aedipamoss/stationery
-    - run: stationery
-    - run: git checkout gh-pages
-    - run: mv out/* .
-    - run: mv log.html index.html
-    - run: ./.circleci/deploy-ghpages.sh
+    docker:
+      - image: circleci/golang:1.10
+    steps:
+      - checkout
+      - run: go get github.com/aedipamoss/stationery
+      - run: stationery
+      - store_artifacts:
+          path: out
+          destination: site
+      - run: mv out/* .
+      - run: mv log.html index.html
+      - run: ./.circleci/deploy-ghpages.sh
