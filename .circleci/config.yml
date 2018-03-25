@@ -10,6 +10,4 @@ jobs:
       - store_artifacts:
           path: out
           destination: site
-      - run: mv out/* .
-      - run: mv log.html index.html
       - run: ./.circleci/deploy-ghpages.sh

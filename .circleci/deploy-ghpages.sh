@@ -34,8 +34,8 @@ fi
 
 # copy over or recompile the new site
 #cp -a "../${siteSource}/." .
-ls -a
-ls -a ..
+cp -a ../out/* .
+mv log.html index.html
 
 # stage any changes and new files
 git add -A
