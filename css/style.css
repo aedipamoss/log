@@ -1,0 +1,13 @@
+html {
+    background: #3c3c3c;
+    color: #65cdad;
+    font-family: mono;
+}
+
+a:link, a:visited {
+  color: #fff;
+}
+
+a:hover, a:active {
+  color: #eee;
+}
