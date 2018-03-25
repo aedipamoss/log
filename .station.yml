@@ -4,3 +4,5 @@ template: template.html
 assets:
   css:
     - style.css
+  images:
+    - bg.png

@@ -1,7 +1,15 @@
 html {
-    background: #3c3c3c;
+    background: url("../images/bg.png");
+    background-color: #3c3c3c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
     color: #65cdad;
     font-family: mono;
+    line-height: 1.5;
+    font-size: 100%;
 }
 
 a:link, a:visited {
