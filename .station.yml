@@ -1,0 +1,6 @@
+source: log.md
+output: out
+template: template.html
+assets:
+  css:
+    - style.css
