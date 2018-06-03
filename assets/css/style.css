@@ -1,21 +1,18 @@
 html {
-    background: url("../images/bg.png");
-    background-color: #3c3c3c;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #ffffff;
 }
 
 body {
-    color: #65cdad;
+    color: #3c3c3c;
     font-family: mono;
     line-height: 1.5;
     font-size: 100%;
 }
 
 a:link, a:visited {
-  color: #fff;
+  color: #47909b;
 }
 
 a:hover, a:active {
-  color: #eee;
+  color: #000000;
 }
