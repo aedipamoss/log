@@ -1,8 +1,13 @@
+title: ædipamoss/log
+description: Captain's log, Stardate 20.whatever.
 source: log.md
 output: out
-template: template.html
+site-url: https://aedipamoss.github.io/log
+image: images/avatar.jpg
+twitter: aedipamoss
 assets:
   css:
     - style.css
   images:
     - bg.png
+    - avatar.jpg
