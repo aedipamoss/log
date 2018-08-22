@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ædipamoss/log</title>
+    <link>https://aedipamoss.github.io/log</link>
+    <description>Captain&#39;s log, Stardate 20.whatever.</description>
+    <item>
+      <title>log</title>
+      <link>https://aedipamoss.github.io/log/log.html</link>
+      <description>Captain&#39;s log, Stardate 20.whatever.</description>
+      <pubDate>Wed, 22 Aug 2018 12:03:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
